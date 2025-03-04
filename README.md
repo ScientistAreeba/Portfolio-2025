@@ -14,14 +14,14 @@ I made the portfolio to be:
 🔹 **Introduction** 
 🔹 **Projects** 
 🔹 **Education** 
-🔹 **Activites And Awards** 
+🔹 **Awards** 
 🔹 **Skills**   
 🔹 **Contact Information**  
 
 ---
 
 ## Projects  
-Every project in my portfolio represents a **working experience** in my learning journey. Some of them are my semester projects ,with a touch of AI and real worl problem.  
+Every project in my portfolio represents a **working experience** in my learning journey. Some of them are my semester projects ,with a touch of AI and real world problem.  
 **Islamicology Mobile App**  
 **Weather Forecast Mobile App**  
 **Magazine Writing**  
