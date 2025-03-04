@@ -28,7 +28,9 @@ Every project in my portfolio represents a **working experience** in my learning
 
 ---
 
-## Demo Screenshots  
+## Demo Screenshots
+<img width="887" alt="home" src="https://github.com/user-attachments/assets/b84091ed-435d-4299-9ab2-03800b63bfe2" />
+
  
 ---
 
