@@ -107,7 +107,28 @@ h2 {
     box-shadow: 10px 10px 10px rgba(241, 39, 211, 0.3);
 }
 
+/*skill style*/
+.progress-bar {
+    transition: width 3s ease-in-out !important;
+}
 
+
+/*contact style*/
+.contact-form input, .contact-form textarea {
+    border-radius: 5px;
+}
+
+
+/* button style */
+.btn-custom {
+   
+    color: rgb(32, 61, 207);
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #80aad7;
+}
 
 /* fade-in animation style */
 @keyframes fadeIn {
