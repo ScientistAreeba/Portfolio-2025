@@ -1,8 +1,18 @@
 /*main body style*/
 body {
+
+    background-image: url('./pictures/backgroundImg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
     font-family: 'Roboto', serif;
     font-size: 18px;
-    background-color: #f4c8ed;
+}
+
+h2 {
+    color: #520e52;
+    font-weight: bold;
 }
 
 /*navigation bar style*/
@@ -21,10 +31,10 @@ body {
 /*sidebar,card style*/
 .sidebar .card{
     background-color: #ddf5f6 !important;
-    color: #9d0891;
+    color: #a91e9d;
     padding: 20px;
     height: 100vh;
-    transition: transform 0.6s ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
 
 /*mobile device style*/
@@ -41,8 +51,8 @@ body {
 /*sidebar image style*/
 .profile-img 
 {
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     border: 8px solid rgb(148, 230, 195) !important;
     transition: transform 0.3s ease-in-out;
@@ -57,7 +67,7 @@ body {
 
 /*mimage style*/
 .profile-img:hover {
-    transform: scale(1.2) rotate(360deg);
+    transform: scale(1.1) rotate(360deg);
 }
 
 /*project style*/
@@ -70,7 +80,29 @@ body {
     box-shadow: 18px 18px 18px rgba(78, 146, 180, 0.2);
 }
 
+/*education style style*/
+.table-dark {
+    overflow: hidden;
+}
+.table thead th {
+    background-color: #c4f7f5 ;
+    color: #413570 ;
+    text-transform: uppercase;
+    font-weight:bolder;
+}
 
 
 
-
+/* fade-in animation style */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 5s forwards;
+}
